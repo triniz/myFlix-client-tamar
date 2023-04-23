@@ -1,0 +1,14 @@
+$primary: DarkSlateGray;
+$body-bg: DarkGray;
+
+.btn-primary {
+  border-color: $primary;
+
+  &:hover,
+  &:focus {
+    background-color: darken($primary, 10%);
+    border-color: darken($primary, 10%);
+  }
+}
+
+@import "~bootstrap/scss/bootstrap.scss";

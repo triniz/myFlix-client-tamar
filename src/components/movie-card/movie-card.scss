@@ -1,0 +1,15 @@
+.movie-card-img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.favorite-button {
+  background-color: DarkSlateGray;
+  color: Chartreuse;
+
+  &:hover {
+    background-color: Chartreuse;
+    color: DarkSlateGray;
+  }
+}

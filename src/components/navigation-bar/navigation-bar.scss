@@ -1,0 +1,27 @@
+.custom-navbar {
+  background-color: DarkSlateGray;
+  font-size: 18px;
+  margin-bottom: 5%;
+
+  .navbar-brand {
+    color: Chartreuse;
+  }
+
+  .nav-link {
+    color: Chartreuse;
+
+    &:hover {
+      color: Seashell;
+    }
+  }
+
+  .btn-outline-secondary {
+    color: Chartreuse;
+    border-color: Seashell;
+
+    &:hover {
+      background-color: Chartreuse;
+      color: DimGray;
+    }
+  }
+}

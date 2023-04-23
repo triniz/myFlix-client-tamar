@@ -1,0 +1,25 @@
+.movie-card-img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+}
+
+.fav-movie-container {
+  max-height: 100%;
+  padding: 2rem;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.my-custom-class {
+  color: DarkSlateGray;
+}
